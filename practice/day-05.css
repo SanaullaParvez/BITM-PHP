@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+.col-1{ width: 8.33%}
+.col-2{ width: 16.66%}
+.col-3{ width: 24.99%}
+.col-4{ width: 33.32%}
+.col-5{ width: 41.65%}
+.col-6{ width: 49.98%}
+.col-7{ width: 58.31%}
+.col-8{ width: 66.64%}
+.col-9{ width: 74.97%}
+.col-10{ width: 83.3%}
+.col-11{ width: 91.63%}
+.col-12{ width: 100%}
+
+[class*='col-']{
+    float: left;
+    border: 1px solid red;
+}
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.header-height{ height: 200px}
+.menu-height{height: 50px}
+.content-height{height: 600px}
+.big-fotter-height{height: 250px}
+.fotter-height{height: 40px}
+
+.main-ul{
+    list-style-type: none;
+}
+.main-ul li{
+    float: left;
+    width: 120px;
+    border: 1px solid white;
+}
+.main-ul li a {
+    text-decoration: none;
+    display: block;
+    height: 47px;
+    text-align: center;
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    transition: 2s;
+
+}
+.main-ul li a:hover{
+    background-color: white;
+    color: black;
+
+}
+.div-one{
+    height: 125px;
+    width: 125px;
+    background-color: red;
+    margin: 50px 0 0 50px;
+    transform: skewY(30deg);
+    float: left;
+}
+.div-two{
+    height: 125px;
+    width: 125px;
+    background-color: blue;
+    margin: 50px 0 0 50px;
+    transform: skewY(-30deg);
+    float: left;
+}
+.div-a-1{
+    height: 200px;
+    width: 20px;
+    background-color: green;
+    margin: 50px 0 0 50px;
+    transform: skew(-30deg);
+    float: left;
+}
+.div-a-2{
+    height: 200px;
+    width: 20px;
+    background-color: red;
+    margin: 50px 0 0 95px;
+    transform: skew(30deg);
+    float: left;
+}
+.div-a-3{
+    height: 20px;
+    width: 136px;
+    background-color: red;
+    margin: 150px 0 0 -140px;
+    transform: skew(-30deg);
+    float: left;
+}
+.div-top{
+    height: 75px;
+    width: 125px;
+    background-color: blue;
+    margin: 50px 0 0 50px;
+    border-radius: 125px 125px 0px 0px ;
+    float: left;
+}
+.div-b-1{
+    height: 200px;
+    width: 100px;
+    border: 1px solid red;
+    margin: 50px 0 0 50px;
+    float: left;
+    border-radius: 0px 100px 100px 0px;
+}
+.div-c-1{
+    height: 100px;
+    width: 100px;
+    border: 10px inset red;
+    margin: 50px 0 0 50px;
+    /*transform: skew(30deg);*/
+    float: left;
+    border-radius: 0px 100px 100px 0px;
+}
+.div-d-1{
+    height: 100px;
+    width: 100px;
+    border: 10px inset red;
+    margin: 50px 0 0 50px;
+    background: linear-gradient(to left, red, green, blue);
+    float: left;
+    border-radius: 0px 100px 100px 0px;
+}
+.div-bottom{
+    height: 75px;
+    width: 125px;
+    background-color: blue;
+    margin: 50px 0 0 50px;
+    border-radius:  0px 0px 125px 125px;
+    float: left;
+}
+.div-left{
+    height: 75px;
+    width: 125px;
+    background-color: blue;
+    margin: 50px 0 0 50px;
+    border-radius:  0px 0px 125px 125px;
+    float: left;
+}
+

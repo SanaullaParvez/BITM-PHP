@@ -1,0 +1,9 @@
+[class*='col']{
+    border: 1px solid red;
+}
+.header-height{ height: 200px}
+.menu-height{height: 50px}
+/*.content-height{height: 600px}*/
+.content-height{height: auto}
+.big-fotter-height{height: 250px}
+.fotter-height{height: 40px}
