@@ -1,0 +1,54 @@
+[class*='col']{
+    /*border: 1px solid red;*/
+    padding: 0px 0px;
+}
+
+#profile{
+    background-image: url('../images/sanaulla.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 120%;
+    height: 209px;
+}
+
+#profile-details{
+    height: 200px;
+}
+
+#my-home{
+    background-image:url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size:  100% 100%;
+    background-attachment: fixed;
+}
+.carousel-item{
+    /*padding: 10px 250px;*/
+    text-align: center;
+}
+
+.mojFooter{
+    background-color: #f8f8f8;
+    color: #00a651;
+    padding-top: 0px;
+    border-top: 1px solid #e7e7e7;
+    margin-bottom: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    size: 4px;
+}
+
+.bottom-footer{
+    border-top: 1px solid #00a651;
+    margin-top: 0px;
+    padding-top: 7px;
+    color: #00a651;
+
+}
+
+.footer-nav li{
+    display: inline;
+    padding: 0px 40px;
+}
+
+.footer-nav a{
+    color: grey;
+    text-decoration: none;
+}
